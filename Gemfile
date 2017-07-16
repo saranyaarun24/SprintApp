@@ -1,17 +1,17 @@
 source 'https://rubygems.org'
 ruby '2.2.7'
 
-gem 'rails', '3.2.13'
-gem 'actionpack', '3.2.13' # added b/c google_charts gem isn't being a good citizen in gemspec
+gem 'rails'
+gem 'actionpack'  # added b/c google_charts gem isn't being a good citizen in gemspec
 
 gem 'pg'
 gem 'foreman'
 gem 'thin'
 
 gem 'cancan'
-gem 'activeadmin', :git => 'git://github.com/macfanatic/active_admin.git', branch: 'stable_batch_actions'
+gem 'activeadmin', :git => 'git://github.com/macfanatic/active_admin.git'
 gem 'sass-rails'
-gem "meta_search",    '>= 1.1.0.pre'
+gem "meta_search"
 
 gem 'ckeditor_rails', :require => 'ckeditor-rails'
 gem 'haml'

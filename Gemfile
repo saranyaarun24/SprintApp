@@ -9,7 +9,7 @@ gem 'foreman'
 gem 'thin'
 
 gem 'cancan'
-gem 'activeadmin', :git => 'git://github.com/macfanatic/active_admin.git'
+gem 'activeadmin'
 gem 'sass-rails'
 gem "meta_search"
 
